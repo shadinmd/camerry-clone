@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #9C4041;
+    font-family: 'montserrat',sans-serif;
+}
+
+nav{
+    padding: 15px 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     background: #000;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.nav *{
+    cursor: pointer;
+}
+
+.center-nav{
+    gap: 40px;
+}
+
+.right-nav{
+    gap: 16px;
+}
+
+.nav-icons > i{
+    width: 14px;
+    height: 14px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.hero{
+
+}
+
+.hero-image{
+    object-fit: contain;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.content{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+.content-right{
+    font-family: 'Montserrat';
+}
+.content-right > h1{
+    font-size: 48px;    
+    font-weight: 600;
+}
+.content-right > p{
+    font-size: 14px;
+}
+
+.content-left{
+    margin-right: 50px;
+}
+
+#explore-button{
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 13px;
+    padding: 10px 36px;
+    color: #BC9E33;
+    border: 2px #BC9E33  solid;
+    background-color: transparent;
+    transition: all 0.5s ;
+    cursor: pointer;
+}
+
+#explore-button:hover{
+    background-color: #BC9E33;
+    color: black;
+}
+
+footer{
+    background-color: #1C1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-top{
+    padding: 40px 60px;
+    display: flex;
+    gap: 600px;
+}
+
+.footer-top-left{
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 400;
+    color: #7c682a;
+}
+
+.footer-top-left :nth-child(2){
+    color: #d1bd74;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#footer-break{
+    width: 90%;
+    background-color: white;
+    box-shadow: none;
+}
+
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 200px;
+    margin: 50px;
+    font-size: 16px;
+    color: #BC9E33;;
+}
+
+#contactus-button{
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 13px;
+    padding: 10px 36px;
+    color: #BC9E33;
+    border: 2px #BC9E33  solid;
+    background-color: transparent;
+    transition: all 0.5s ;
+    cursor: pointer;
+    width: 200px;
+}
+
+#contactus-button:hover{
+    background-color: #BC9E33;
+    color: black;
+}
+
+.footer-bottom-center > ul,.footer-bottom-right > ul{
+    list-style: none;
+}
+.footer-bottom-center > ul >li,.footer-bottom-right > ul>li{
+    margin: 10px 0px;
+}
