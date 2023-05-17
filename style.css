@@ -41,9 +41,21 @@ nav{
     gap: 16px;
 }
 
+.nav-text{
+    transition: 0.5s;
+}
+
+.nav-text:hover{
+    color: rgb(100, 100, 100);
+}
+
 .nav-icons > i{
     width: 14px;
     height: 14px;
+}
+
+.nav-icons > i:hover{
+    color: rgb(100, 100, 100) !important;
 }
 
 .logo{
@@ -117,7 +129,7 @@ footer{
     font-family: 'Montserrat';
     font-size: 32px;
     font-weight: 400;
-    color: #7c682a;
+    color: #7C682A ;
 }
 
 .footer-top-left :nth-child(2){
@@ -140,7 +152,7 @@ footer{
     gap: 200px;
     margin: 50px;
     font-size: 16px;
-    color: #BC9E33;;
+    color: rgb(209,189,116);
 }
 
 #contactus-button{
@@ -167,4 +179,12 @@ footer{
 }
 .footer-bottom-center > ul >li,.footer-bottom-right > ul>li{
     margin: 10px 0px;
+}
+.footer-bottom-right > ul >li{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.footer-bottom-right > ul>li:hover{
+    color: #BC9E33;
 }
