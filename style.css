@@ -8,6 +8,11 @@ body{
     font-family: 'montserrat',sans-serif;
 }
 
+header{
+    position: sticky;
+    top: 0;
+}
+
 nav{
     padding: 15px 65px;
     display: flex;
@@ -43,10 +48,6 @@ nav{
 
 .logo{
     height: 50px;
-}
-
-.hero{
-
 }
 
 .hero-image{
